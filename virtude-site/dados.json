@@ -1,0 +1,40 @@
+{
+  "agenda": [
+    {"d":"07","m":"Set","t":"Culto de Celebração","meta":["Domingo · 9h · 11h · 18:30","Virtude SP"],"p":"Todos"},
+    {"d":"09","m":"Set","t":"Quartas do Espírito Santo","meta":["Quarta · 20h","Virtude SP"],"p":"Todos"},
+    {"d":"12","m":"Set","t":"Sub15 — Reunião de Adolescentes","meta":["Sexta · 19h30","Virtude SP"],"p":"Adolescentes"},
+    {"d":"13","m":"Set","t":"Mulheres Virtuosas","meta":["Sábado · 16h","Virtude SP"],"p":"Mulheres"},
+    {"d":"13","m":"Set","t":"Be One — Culto de Jovens","meta":["Sábado · 19h","Virtude SP"],"p":"Jovens"},
+    {"d":"14","m":"Set","t":"Culto de Celebração","meta":["Domingo · 10h","Virtude GRU"],"p":"Todos"},
+    {"d":"20","m":"Set","t":"Virtude Kids — Domingo especial","meta":["Domingo · 9h e 11h","Virtude SP"],"p":"Crianças"},
+    {"d":"21","m":"Set","t":"Culto de Celebração","meta":["Domingo · 9h · 11h · 18:30","Virtude SP"],"p":"Todos"}
+  ],
+  "ministerios": [
+    {"i":"KIDS","t":"Virtude Kids","x":"Cuidado e ensino bíblico para as crianças, com check-in seguro em todos os cultos.","g":"0 a 11 anos"},
+    {"i":"TEEN","t":"Sub15","x":"Reuniões de adolescentes: amizade, discipulado e uma fé que faz sentido nessa idade.","g":"Adolescentes"},
+    {"i":"HEART","t":"Be One — Jovens","x":"Nosso culto de jovens: louvor, palavra e amizades que marcam. Todo sábado às 19h.","g":"Jovens · Sáb 19h"},
+    {"i":"WOMEN","t":"Mulheres Virtuosas","x":"Encontros que fortalecem mulheres na fé, no propósito e na comunhão.","g":"Mulheres"},
+    {"i":"MUSIC","t":"Ministério de Louvor","x":"Adoradores que preparam o ambiente para a presença de Deus a cada culto.","g":"Adoração"},
+    {"i":"HANDS","t":"Intercessão","x":"Um time dedicado a sustentar a igreja em oração dia após dia.","g":"Oração"},
+    {"i":"GLOBE","t":"Mídia & Virtude.tv","x":"Registra e transmite cada culto, levando a Palavra além das paredes da igreja.","g":"Comunicação"}
+  ],
+  "valores": [
+    {"i":"HANDS","t":"Família","x":"Cremos que a igreja é uma família espiritual, onde cada pessoa pertence e é cuidada."},
+    {"i":"BOOK","t":"Excelência","x":"Fazer tudo com esmero e dedicação, como para o Senhor, em cada detalhe."},
+    {"i":"HEART","t":"Sobrenatural","x":"Cremos que Deus cura, liberta e age com poder — ontem, hoje e sempre."},
+    {"i":"TEEN","t":"Liderança","x":"Servos que inspiram, cuidam e conduzem com o coração de Cristo."},
+    {"i":"HOUSE","t":"Comunhão","x":"A base da família: nos reunimos no macro (cultos) e no micro (casas, mesa e comunhão)."},
+    {"i":"WOMEN","t":"Pastoreio e Discipulado","x":"Caminhar lado a lado, cuidando e gerando maturidade em cada pessoa."}
+  ],
+  "mensagens": [
+    {"s":"Mensagem","t":"Fale o que Deus diz","who":"Pr. Luiz Paulo","id":"XY1hrJs5FVA","co":"assets/mensagem-1.jpg"},
+    {"s":"Domingo","t":"Culto de Domingo","who":"21 · Jun · 2026","id":"Jq0qUeEpDnM","co":"assets/mensagem-2.jpg"},
+    {"s":"Mensagem","t":"Decisões decidem destinos","who":"Felipe Araújo","id":"z1lRskE54Yc","co":"assets/mensagem-3.jpg"},
+    {"s":"Mensagem","t":"Uma nova perspectiva","who":"Pr. Rodrigo","id":"-LccG60WnWU","co":"assets/mensagem-4.jpg"},
+    {"s":"Mensagem","t":"Família de Deus","who":"Samuel Martins","id":"hRlehnpes90","co":"assets/mensagem-5.jpg"},
+    {"s":"Mensagem","t":"Essa batalha você não irá perder","who":"Pr. Luiz Paulo","id":"uFGsvhHHxFY","co":"assets/mensagem-6.jpg"},
+    {"s":"Mensagem","t":"Construindo um lugar profético","who":"Pr. Juca","id":"hFSybs629eg","co":"assets/mensagem-7.jpg"},
+    {"s":"Quarta","t":"Quartas do Espírito Santo","who":"Pr. Luiz Paulo","id":"32Vf-yk_PRo","co":"assets/mensagem-8.jpg"},
+    {"s":"Quarta","t":"Quartas do Espírito Santo","who":"Pr. Juca","id":"qDGmBRTtpxs","co":"assets/mensagem-9.jpg"}
+  ]
+}

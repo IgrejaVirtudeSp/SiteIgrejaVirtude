@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Igreja Virtude</title>
+<meta name="description" content="Igreja Virtude — um toque que transforma. Cultos em São Paulo, Guarulhos e Bahia.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="nav">
+  <div class="wrap nav-in">
+    <div class="brand" onclick="go('inicio')">
+      <img src="assets/logo-virtude-grafite.png" alt="Igreja Virtude" class="lg-light">
+      <img src="assets/logo-virtude-branco.png" alt="Igreja Virtude" class="lg-dark" hidden>
+    </div>
+    <nav class="menu" id="menu"></nav>
+    <div class="nav-cta">
+      <button class="theme-btn" id="themeBtn" aria-label="Alternar tema">◐</button>
+      <a class="btn btn-primary" href="https://dinastia-igreja-app.nzdcua.easypanel.host/" target="_blank" rel="noopener">Acesse nosso sistema</a>
+      <button class="hamburger" id="ham" aria-label="Menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+    </div>
+  </div>
+  <div class="wrap"><div class="mob-menu" id="mobMenu"></div></div>
+</header>
+
+<main>
+<!-- ================= INÍCIO ================= -->
+<section data-page="inicio" class="show">
+  <div class="hero">
+    <img src="assets/hero.jpg" class="hero-photo" alt="Momento de adoração na Igreja Virtude">
+    <div class="hero-scrim"></div>
+    <div class="dots"></div>
+    <div class="wrap hero-in">
+      <span class="eyebrow">Igreja Virtude · São Paulo</span>
+      <h1>Um <span class="script">toque</span> que transforma tudo.</h1>
+      <p class="lead">Cremos que, ao tocar em Jesus, é gerada conexão e liberada virtude — trazendo cura, restauração e poder. Aqui, vidas encontram um lugar de fé, família e pertencimento.</p>
+      <div class="cta-row">
+        <button class="btn btn-primary" onclick="go('contato')">Planeje sua visita →</button>
+        <button class="btn btn-ghost" onclick="go('mensagens')">▶ Assista às mensagens</button>
+      </div>
+    </div>
+    <div class="wrap"><div class="hero-foot">
+      <div class="cell"><span class="k">Domingo</span><span class="l">9h · 11h · 18:30</span></div>
+      <div class="cell"><span class="k">3 casas</span><span class="l">São Paulo · Guarulhos · Bahia</span></div>
+      <div class="cell"><span class="k">Virtude.tv</span><span class="l">Mensagens toda semana</span></div>
+    </div></div>
+  </div>
+
+  <div class="sec"><div class="wrap">
+    <div class="sec-head center">
+      <span class="eyebrow center">Onde tudo começa</span>
+      <h2>Feita de <span class="script">família</span>, fé e comunhão</h2>
+      <p class="lead-2">Uma igreja baseada em família, excelência, no sobrenatural de Deus, pastoreio e discipulado — caminhando firme na Palavra.</p>
+    </div>
+    <div class="pillars">
+      <article class="pillar pil-a"><img src="assets/pilar-palavra.jpg" class="p-img" alt="Adoração"><span class="p-n">A PALAVRA</span><h3>Fundamento firme</h3><p>Ensino bíblico que edifica a fé e conduz a um encontro real com Deus.</p></article>
+      <article class="pillar pil-b"><img src="assets/pilar-encontro.jpg" class="p-img" alt="Oração pela cura"><span class="p-n">O ENCONTRO</span><h3>Presença que cura</h3><p>Momentos de adoração onde o sobrenatural de Deus toca e restaura vidas.</p></article>
+      <article class="pillar pil-c"><img src="assets/pilar-comunhao.jpg" class="p-img" alt="Comunhão entre irmãos"><span class="p-n">COMUNHÃO</span><h3>Ninguém sozinho</h3><p>Discipulado e amizade de verdade — cuidado mútuo que faz a igreja virar família.</p></article>
+    </div>
+  </div></div>
+
+  <div class="sec" style="padding-top:0"><div class="wrap">
+    <div class="band">
+      <img src="assets/simbolo-terracota.png" class="sym-water" alt="">
+      <div>
+        <span class="eyebrow">Nossos cultos</span>
+        <h3>Venha adorar com a gente</h3>
+        <p class="loc" style="margin-top:1rem">Kids e estacionamento disponíveis em todos os horários. Venha como você está.</p>
+      </div>
+      <div>
+        <div class="church-block">
+          <div class="church-name">Virtude São Paulo <span class="church-loc">· Vila Prudente</span></div>
+          <div class="sched">
+            <div class="sched-row"><div class="sched-day">Domingo</div><div class="sched-times"><span class="t">9h</span><span class="sep">·</span><span class="t">11h</span><span class="sep">·</span><span class="t">18:30</span></div></div>
+            <div class="sched-row"><div class="sched-day">Quarta</div><div class="sched-times"><span class="t">20h</span><span class="note">Quartas do Espírito Santo</span></div></div>
+            <div class="sched-row"><div class="sched-day">Sexta</div><div class="sched-times"><span class="t">19h30</span><span class="note">Sub15 · adolescentes</span></div></div>
+            <div class="sched-row"><div class="sched-day">Sábado</div><div class="sched-times"><span class="t">19h</span><span class="note">Be One · jovens</span></div></div>
+          </div>
+        </div>
+        <div class="church-block">
+          <div class="church-name">Virtude Guarulhos <span class="church-loc">· Vila Rosália</span></div>
+          <div class="sched">
+            <div class="sched-row"><div class="sched-day">Domingo</div><div class="sched-times"><span class="t">10h</span></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div></div>
+
+  <div class="sec" style="padding-top:0"><div class="wrap">
+    <div class="split">
+      <div class="fig"><img src="assets/sobre-orla.jpg" class="f-img" alt="Adoração em entrega"><span class="tag">a orla de Jesus</span></div>
+      <div>
+        <span class="eyebrow">Quem somos</span>
+        <h2>Uma marca nascida de um <span class="script">toque</span></h2>
+        <p class="lead-2">Nosso símbolo nasce da história da mulher que, no meio da multidão, estendeu a mão e tocou a orla da veste de Jesus. Naquele instante, a virtude foi liberada e ela foi curada. É essa a nossa fé: basta um toque.</p>
+        <div class="values">
+          <div class="val"><span class="dot"></span>Família</div>
+          <div class="val"><span class="dot"></span>Excelência</div>
+          <div class="val"><span class="dot"></span>O sobrenatural de Deus</div>
+          <div class="val"><span class="dot"></span>Liderança</div>
+          <div class="val"><span class="dot"></span>Pastoreio</div>
+          <div class="val"><span class="dot"></span>Discipulado</div>
+        </div>
+        <p class="verse">“Chegando por detrás dele, tocou na orla da sua veste, e logo estancou o fluxo do seu sangue.” — Lucas 8.44</p>
+        <div style="margin-top:1.6rem"><button class="btn btn-dark" onclick="go('sobre')">Conheça nossa história →</button></div>
+      </div>
+    </div>
+  </div></div>
+
+  <div class="sec" style="padding-top:0"><div class="wrap">
+    <div class="sec-head"><span class="eyebrow">Ministérios</span><h2>Um lugar para cada fase da vida</h2></div>
+    <div class="min-grid">
+      <article class="min"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="6" r="2.4"/><path d="M12 9v6M8 12h8M9 20l3-5 3 5"/></svg></div><div><h3>Virtude Kids</h3><p>Cuidado e ensino bíblico para as crianças, com check-in seguro em todos os cultos.</p><div class="tagm">0 a 11 anos</div></div></article>
+      <article class="min"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="7" r="3"/><circle cx="17" cy="9" r="2"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M15.5 20c.2-1.8 1.4-3.2 3-3.6"/></svg></div><div><h3>Sub15</h3><p>Reuniões de adolescentes: amizade, discipulado e uma fé que faz sentido nessa idade.</p><div class="tagm">Adolescentes</div></div></article>
+      <article class="min"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c2.8 0 5 2.2 5 5 0 3.5-3 5.2-4 6h-2c-1-.8-4-2.5-4-6 0-2.8 2.2-5 5-5Z"/><path d="M9 20h6M10 17h4"/></svg></div><div><h3>Mulheres Virtuosas</h3><p>Encontros que fortalecem mulheres na fé, no propósito e na comunhão umas com as outras.</p><div class="tagm">Mulheres</div></div></article>
+      <article class="min"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V6l10-2v12"/><circle cx="6.5" cy="18" r="2.5"/><circle cx="16.5" cy="16" r="2.5"/></svg></div><div><h3>Ministério de Louvor</h3><p>Adoradores que preparam o ambiente para a presença de Deus a cada culto.</p><div class="tagm">Adoração</div></div></article>
+    </div>
+    <div style="margin-top:2rem"><button class="btn btn-dark" onclick="go('ministerios')">Ver todos os ministérios →</button></div>
+  </div></div>
+
+  <div class="sec" style="padding-top:0"><div class="wrap">
+    <div class="sec-head"><span class="eyebrow">Próximos encontros</span><h2>Na agenda da Virtude</h2></div>
+    <div class="agenda" id="agendaHome"></div>
+    <div style="margin-top:1.8rem"><button class="btn btn-dark" onclick="go('agenda')">Agenda completa →</button></div>
+  </div></div>
+
+  <div class="sec" style="padding-top:0"><div class="wrap">
+    <div class="sec-head"><span class="eyebrow">Virtude.tv</span><h2>Mensagens que edificam</h2></div>
+    <div class="msgs" id="msgsHome"></div>
+    <div style="margin-top:2rem"><button class="btn btn-dark" onclick="go('mensagens')">Ver todas as mensagens →</button></div>
+  </div></div>
+
+  <div class="sec" style="padding-top:0"><div class="wrap">
+    <div class="sec-head"><span class="eyebrow">Momentos</span><h2>A Virtude acontecendo</h2></div>
+    <div class="gallery">
+      <article class="gcard"><img src="assets/momento-2.jpg" alt="Pregação"><span class="gchip">A Palavra</span><span class="gname">Pregação</span></article>
+      <article class="gcard"><img src="assets/momento-1.jpg" alt="Adoração"><span class="gchip">Louvor</span><span class="gname">Adoração</span></article>
+      <article class="gcard"><img src="assets/pilar-encontro.jpg" alt="Oração"><span class="gchip">Oração</span><span class="gname">Cura e libertação</span></article>
+      <article class="gcard"><img src="assets/sobre-orla.jpg" alt="Nova geração"><span class="gchip">Kids</span><span class="gname">Nova geração</span></article>
+    </div>
+  </div></div>
+
+  <div class="sec" style="padding-top:0"><div class="wrap">
+    <div class="cta-strip">
+      <img src="assets/simbolo-branco.png" class="sym-water" alt="">
+      <span class="eyebrow center">Dê o primeiro passo</span>
+      <h2>Sua primeira vez pode ser <span class="script">neste</span> domingo</h2>
+      <p>Chegue como você está. Teremos alguém pronto para te receber, te acompanhar e responder qualquer dúvida.</p>
+      <div class="cta-row">
+        <button class="btn btn-primary" onclick="go('contato')">Planeje sua visita</button>
+        <button class="btn btn-ghost" onclick="go('contato')">Falar no WhatsApp</button>
+      </div>
+    </div>
+  </div></div>
+</section>
+
+<!-- ================= SOBRE ================= -->
+<section data-page="sobre">
+  <div class="page-hero"><div class="wrap sec-head">
+    <span class="eyebrow">Quem somos</span>
+    <h1>A igreja do <span class="script">toque</span></h1>
+    <p>Conduzir pessoas a um encontro real com Deus, onde vidas são restauradas e fortalecidas.</p>
+  </div></div>
+  <div class="sec"><div class="wrap">
+    <div class="split">
+      <div>
+        <span class="eyebrow">Nosso propósito</span>
+        <h2>Basta um toque para tudo mudar</h2>
+        <p class="lead-2">A Igreja Virtude crê que, por meio do toque em Jesus, é gerada conexão e liberada virtude, trazendo transformação, cura e poder. Vivemos com o propósito de conduzir pessoas a um encontro real com Deus, onde vidas são restauradas e fortalecidas.</p>
+        <p class="lead-2">Somos uma igreja baseada em família, excelência, no sobrenatural de Deus, liderança, pastoreio, discipulado e comunhão — caminhando firmemente na Palavra e na dependência do Espírito Santo.</p>
+        <p class="verse">“E uma mulher, que tinha um fluxo de sangue havia doze anos… tocou na orla da sua veste, e logo estancou o fluxo do seu sangue.” — Lucas 8.43-44</p>
+      </div>
+      <div class="fig"><img src="assets/sobre-virtude.jpg" class="f-img" alt="Intercessão"><span class="tag">liberai virtude</span></div>
+    </div>
+  </div></div>
+
+  <div class="sec" style="padding-top:0"><div class="wrap">
+    <div class="vm-grid">
+      <article class="vm-card vm-terra">
+        <img src="assets/simbolo-branco.png" class="vm-sym" alt="">
+        <span class="vm-label">Visão</span>
+        <p>Ser uma igreja bíblica e relevante na cidade, que ama pessoas e as discipula — liderados pelo Espírito Santo. Uma igreja que ama servir e manifestar o Reino de Deus onde está.</p>
+      </article>
+      <article class="vm-card vm-dark">
+        <img src="assets/simbolo-branco.png" class="vm-sym" alt="">
+        <span class="vm-label">Missão</span>
+        <p>Aumentar em cada indivíduo a paixão por Jesus, levando-o ao crescimento em Deus e ao conhecimento do Seu poder através das práticas espirituais.</p>
+      </article>
+    </div>
+  </div></div>
+
+  <div class="sec" style="padding-top:0"><div class="wrap">
+    <div class="sec-head center"><span class="eyebrow center">No que cremos</span><h2>Seis valores que nos guiam</h2></div>
+    <div class="min-grid" id="valuesGrid"></div>
+  </div></div>
+
+  <div class="sec" style="padding-top:0"><div class="wrap">
+    <div class="sec-head center"><span class="eyebrow center">O nosso chamado</span><h2>A igreja tem uma <span class="script">missão</span></h2>
+      <p class="lead-2">Fomos enviados por Jesus para viver, na prática, o Reino de Deus na cidade.</p></div>
+    <div class="practices">
+      <div class="pr"><span class="pr-n">01</span>Adorar a Deus</div>
+      <div class="pr"><span class="pr-n">02</span>Viver a Palavra</div>
+      <div class="pr"><span class="pr-n">03</span>Pregar o evangelho</div>
+      <div class="pr"><span class="pr-n">04</span>Fazer discípulos</div>
+      <div class="pr"><span class="pr-n">05</span>Cuidar da cidade</div>
+      <div class="pr"><span class="pr-n">06</span>Libertar pessoas</div>
+      <div class="pr"><span class="pr-n">07</span>Cuidar do órfão, da viúva e do necessitado</div>
+      <div class="pr"><span class="pr-n">08</span>Servir com nossos dons e talentos</div>
+    </div>
+  </div></div>
+
+  <div class="sec" style="padding-top:0"><div class="wrap">
+    <div class="notis">
+      <img src="assets/simbolo-branco.png" class="sym-water" alt="">
+      <span class="eyebrow center">O que a igreja não é</span>
+      <h2>A igreja não é o <span class="script">prédio</span></h2>
+      <div class="notis-row">
+        <div class="ni">A igreja não sou <b>eu</b>.</div>
+        <div class="ni">A igreja não é <b>singular</b>.</div>
+        <div class="ni">A igreja não é o <b>prédio</b>.</div>
+      </div>
+      <p class="notis-sub">A igreja somos nós · é a reunião dos filhos de Deus · não posso me isolar.</p>
+      <p class="verse" style="border:none;text-align:center;padding:0;margin-top:1.4rem;font-style:italic">“Não deixemos de congregar-nos, como é costume de alguns.” — Hebreus 10.25</p>
+    </div>
+  </div></div>
+
+  <div class="sec" style="padding-top:0"><div class="wrap">
+    <div class="band serve-band">
+      <img src="assets/simbolo-terracota.png" class="sym-water" alt="">
+      <div>
+        <span class="eyebrow">Servir</span>
+        <h3>“Se alguém não serve para servir, não serve.”</h3>
+        <p class="loc" style="margin-top:1rem">Servir não é uma opção, mas a consequência de quem entendeu o que Jesus fez por nós. — Mateus 20.26-27</p>
+      </div>
+      <div class="serve-stat">
+        <div class="big">+200</div>
+        <div class="lbl">voluntários servindo<br>ao povo da Virtude</div>
+        <button class="btn btn-primary" style="margin-top:1.2rem" onclick="go('contato')">Quero servir</button>
+      </div>
+    </div>
+  </div></div>
+  <div class="sec" style="padding-top:0"><div class="wrap"><div class="cta-strip">
+    <img src="assets/simbolo-branco.png" class="sym-water" alt="">
+    <span class="eyebrow center">Faça parte</span>
+    <h2>Venha viver isso de perto</h2>
+    <p>A melhor forma de conhecer a Virtude é estar presente. Te esperamos.</p>
+    <div class="cta-row"><button class="btn btn-primary" onclick="go('contato')">Planeje sua visita</button><button class="btn btn-ghost" onclick="go('agenda')">Ver agenda</button></div>
+  </div></div></div>
+</section>
+
+<!-- ================= MINISTÉRIOS ================= -->
+<section data-page="ministerios">
+  <div class="page-hero"><div class="wrap sec-head">
+    <span class="eyebrow">Ministérios</span>
+    <h1>Um lugar para <span class="script">cada</span> um</h1>
+    <p>Cada pessoa tem um chamado e cada dom, um propósito. Encontre o seu lugar para servir, crescer e pertencer — seja qual for a sua fase de vida.</p>
+  </div></div>
+  <div class="sec"><div class="wrap">
+    <div class="min-grid" id="minFull"></div>
+  </div></div>
+  <div class="sec" style="padding-top:0"><div class="wrap"><div class="band">
+    <img src="assets/simbolo-terracota.png" class="sym-water" alt="">
+    <div><span class="eyebrow">Faça parte</span><h3>Cada dom tem um lugar aqui</h3><p class="loc" style="margin-top:1rem">Seja no louvor, no cuidado com as crianças, na mídia ou na intercessão — há um time esperando por você para servir.</p></div>
+    <div><button class="btn btn-primary" onclick="go('contato')">Quero servir</button></div>
+  </div></div></div>
+</section>
+
+<!-- ================= AGENDA ================= -->
+<section data-page="agenda">
+  <div class="page-hero"><div class="wrap sec-head">
+    <span class="eyebrow">Agenda geral</span>
+    <h1>O que vem <span class="script">por aí</span></h1>
+    <p>Cultos, reuniões e encontros nas duas casas — São Paulo e Guarulhos.</p>
+  </div></div>
+  <div class="sec"><div class="wrap">
+    <div class="agenda" id="agendaFull"></div>
+  </div></div>
+</section>
+
+<!-- ================= MENSAGENS ================= -->
+<section data-page="mensagens">
+  <div class="page-hero"><div class="wrap sec-head">
+    <span class="eyebrow">Virtude.tv</span>
+    <h1>Mensagens que <span class="script">edificam</span></h1>
+    <p>Reveja as pregações e leve a Palavra com você durante a semana.</p>
+  </div></div>
+  <div class="sec"><div class="wrap">
+    <div class="msgs" id="msgsFull"></div>
+  </div></div>
+</section>
+
+<!-- ================= CONTATO ================= -->
+<section data-page="contato">
+  <div class="page-hero"><div class="wrap sec-head">
+    <span class="eyebrow">Contato</span>
+    <h1>Vamos nos <span class="script">encontrar</span></h1>
+    <p>Escolha a casa mais perto de você ou fale com a gente. Será uma alegria te receber.</p>
+  </div></div>
+  <div class="sec"><div class="wrap">
+    <div class="locs">
+      <div class="loc-card"><img src="assets/simbolo-terracota.png" class="sym" alt=""><div class="c">Virtude SP</div><h3>Vila Prudente</h3>
+        <address>
+          <div class="li"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-5.6 7-11a7 7 0 1 0-14 0c0 5.4 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg><span>Rua Orfanato, 1280<br>Vila Prudente · São Paulo — SP</span></div>
+          <div class="li"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Domingo · 9h · 11h · 18:30</span></div>
+        </address>
+      </div>
+      <div class="loc-card"><img src="assets/simbolo-terracota.png" class="sym" alt=""><div class="c">Virtude GRU</div><h3>Vila Rosália</h3>
+        <address>
+          <div class="li"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-5.6 7-11a7 7 0 1 0-14 0c0 5.4 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg><span>Avenida São Luís, 108<br>Vila Rosália · Guarulhos — SP</span></div>
+          <div class="li"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Consulte os horários de culto</span></div>
+        </address>
+      </div>
+      <div class="loc-card"><img src="assets/simbolo-terracota.png" class="sym" alt=""><div class="c">Virtude Bahia</div><h3>Cabeleiro</h3>
+        <address>
+          <div class="li"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-5.6 7-11a7 7 0 1 0-14 0c0 5.4 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg><span>Cabeleiro<br>Bahia — BA</span></div>
+          <div class="li"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Consulte os horários de culto</span></div>
+        </address>
+      </div>
+    </div>
+
+    <div class="contact-grid">
+      <div>
+        <span class="eyebrow">Fale com a gente</span>
+        <h2 style="font-size:2rem;margin-top:.8rem">Envie uma mensagem</h2>
+        <form onsubmit="event.preventDefault();this.reset();document.getElementById('sent').hidden=false">
+          <div class="field"><label for="n">Seu nome</label><input id="n" required placeholder="Como podemos te chamar?"></div>
+          <div class="field"><label for="e">E-mail ou telefone</label><input id="e" required placeholder="Para retornarmos o contato"></div>
+          <div class="field"><label for="a">Assunto</label>
+            <select id="a"><option>Quero visitar</option><option>Aconselhamento e oração</option><option>Virtude Kids</option><option>Quero servir num ministério</option><option>Outro</option></select></div>
+          <div class="field"><label for="m">Mensagem</label><textarea id="m" rows="4" placeholder="Escreva aqui…"></textarea></div>
+          <button class="btn btn-primary" type="submit">Enviar mensagem</button>
+          <p id="sent" hidden style="margin-top:1rem;color:var(--terra);font-weight:600">Recebemos sua mensagem — logo entraremos em contato. 🤎</p>
+        </form>
+      </div>
+      <div>
+        <span class="eyebrow">Canais diretos</span>
+        <h2 style="font-size:2rem;margin-top:.8rem;margin-bottom:1.4rem">Prefere falar agora?</h2>
+        <div class="chan">
+          <a href="#" onclick="return false"><span class="ic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.8 4.9-1.3A10 10 0 1 0 12 2Zm5.6 14.1c-.2.6-1.2 1.2-1.7 1.2-.5.1-1 .1-1.7-.1-.4-.1-.9-.3-1.6-.6-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 .9-2.2c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 1.9c.1.2.1.3 0 .5l-.4.6c-.2.2-.3.4-.1.7.2.3.9 1.4 1.9 2.3 1.3 1.1 2.3 1.4 2.6 1.6.2.1.4.1.6-.1l.7-.9c.2-.2.4-.2.6-.1l1.9.9c.3.1.4.2.5.3.1.2.1.7-.2 1.4Z"/></svg></span><span class="t"><b>WhatsApp</b><span>Atendimento e oração</span></span></a>
+          <a href="#" onclick="return false"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" stroke="none"/></svg></span><span class="t"><b>@igrejavirtude</b><span>Bastidores e avisos</span></span></a>
+          <a href="#" onclick="return false"><span class="ic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 12s0-3.5-.4-5.1a2.6 2.6 0 0 0-1.8-1.8C19 4.6 12 4.6 12 4.6s-7 0-8.8.5A2.6 2.6 0 0 0 1.4 6.9C1 8.5 1 12 1 12s0 3.5.4 5.1a2.6 2.6 0 0 0 1.8 1.8c1.8.5 8.8.5 8.8.5s7 0 8.8-.5a2.6 2.6 0 0 0 1.8-1.8C23 15.5 23 12 23 12ZM9.8 15.3V8.7l5.7 3.3Z"/></svg></span><span class="t"><b>Virtude.tv</b><span>Cultos e mensagens</span></span></a>
+          <a href="#" onclick="return false"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 2.5 15.4 0 18M12 3c-2.5 2.6-2.5 15.4 0 18"/></svg></span><span class="t"><b>igrejavirtude.com.br</b><span>Site oficial</span></span></a>
+        </div>
+      </div>
+    </div>
+  </div></div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap foot-in">
+    <div>
+      <img src="assets/logo-virtude-branco.png" class="flogo" alt="Igreja Virtude">
+      <p class="fb">Junte-se a nós, participe de nossas reuniões e faça parte do que Deus está fazendo através da Igreja Virtude.</p>
+      <div class="socials">
+        <a href="#" onclick="return false" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" stroke="none"/></svg></a>
+        <a href="#" onclick="return false" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 12s0-3.5-.4-5.1a2.6 2.6 0 0 0-1.8-1.8C19 4.6 12 4.6 12 4.6s-7 0-8.8.5A2.6 2.6 0 0 0 1.4 6.9C1 8.5 1 12 1 12s0 3.5.4 5.1a2.6 2.6 0 0 0 1.8 1.8c1.8.5 8.8.5 8.8.5s7 0 8.8-.5a2.6 2.6 0 0 0 1.8-1.8C23 15.5 23 12 23 12ZM9.8 15.3V8.7l5.7 3.3Z"/></svg></a>
+        <a href="#" onclick="return false" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.8 4.9-1.3A10 10 0 1 0 12 2Zm5.6 14.1c-.2.6-1.2 1.2-1.7 1.2-.5.1-1 .1-1.7-.1-.4-.1-.9-.3-1.6-.6-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 .9-2.2c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 1.9c.1.2.1.3 0 .5l-.4.6c-.2.2-.3.4-.1.7.2.3.9 1.4 1.9 2.3 1.3 1.1 2.3 1.4 2.6 1.6.2.1.4.1.6-.1l.7-.9c.2-.2.4-.2.6-.1l1.9.9c.3.1.4.2.5.3.1.2.1.7-.2 1.4Z"/></svg></a>
+      </div>
+    </div>
+    <div>
+      <h4>Navegação</h4>
+      <div class="fl" id="footNav"></div>
+    </div>
+    <div>
+      <h4>Nossas casas</h4>
+      <div class="fl">
+        <span><b style="color:#EDE7DC">Virtude SP</b><br>Rua Orfanato, 1280 — Vila Prudente</span>
+        <span style="margin-top:.4rem"><b style="color:#EDE7DC">Virtude GRU</b><br>Av. São Luís, 108 — Vila Rosália</span>
+        <span style="margin-top:.4rem"><b style="color:#EDE7DC">Virtude Bahia</b><br>Cabeleiro — BA</span>
+      </div>
+    </div>
+  </div>
+  <div class="wrap foot-bar">
+    <span>© 2026 Igreja Virtude · Todos os direitos reservados</span>
+    <span>igrejavirtude.com.br</span>
+  </div>
+</footer>
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
